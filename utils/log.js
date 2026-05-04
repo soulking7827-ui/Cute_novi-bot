@@ -7,19 +7,19 @@ function styledLog({ prefix = "🔷", label = "Mirrykal", suffix = "🔷", color
 module.exports = (msg, type = "info") => {
   switch (type.toLowerCase()) {
     case "warn":
-      styledLog({ prefix: "⚠️", label: "Arun", suffix: "⚠️", color: "#FFD700", msg });
+      styledLog({ prefix: "⚠️", label: "Novi", suffix: "⚠️", color: "#FFD700", msg });
       break;
     case "error":
-      styledLog({ prefix: "❌", label: "Arun", suffix: "❌", color: "#FF3333", msg });
+      styledLog({ prefix: "❌", label: "Novi", suffix: "❌", color: "#FF3333", msg });
       break;
     case "success":
-      styledLog({ prefix: "✅", label: "Arun", suffix: "✅", color: "#00FF7F", msg });
+      styledLog({ prefix: "✅", label: "Novi", suffix: "✅", color: "#00FF7F", msg });
       break;
     case "load":
-      styledLog({ prefix: "🔄", label: "Arun", suffix: "🔄", color: "#00CED1", msg });
+      styledLog({ prefix: "🔄", label: "Novi", suffix: "🔄", color: "#00CED1", msg });
       break;
     default:
-      styledLog({ prefix: "ℹ️", label: "Arun", suffix: "ℹ️", color: "#00BFFF", msg });
+      styledLog({ prefix: "ℹ️", label: "Novi", suffix: "ℹ️", color: "#00BFFF", msg });
       break;
   }
 };
